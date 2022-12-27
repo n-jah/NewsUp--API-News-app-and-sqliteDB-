@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginActivity"
+    android:background="@drawable/backlogin"
+    >
+
+
+    <ImageView
+
+        android:id="@+id/image_login_in"
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="9dp"
+        android:scaleType="centerCrop"
+        android:paddingTop="155dp"
+        android:src="@drawable/lovepik_com_450100643_website_login_icon_vector_"
+        app:layout_constraintBottom_toTopOf="@+id/username_et_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <EditText
+        android:id="@+id/username_et_login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="467dp"
+        android:hint="User name"
+        android:inputType="text"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_login_in"></EditText>
+
+    <EditText
+        android:id="@+id/password_et_login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="9dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/username_et_login"></EditText>
+
+    <Button
+        android:id="@+id/Sign_in_in_login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="68dp"
+        android:backgroundTint="#58C2E6"
+        android:padding="13dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/password_et_login"></Button>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

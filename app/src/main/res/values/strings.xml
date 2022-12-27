@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">news-app</string>
+    <string name="api_key">11b4d85b676b423c9bb31596a6d04a0c</string>
+    <string name="country_key">country</string>
+    <string name="general_category">general</string>
+    <string name="usa">us</string>
+    <string name="tech">technology</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!--    <string-array name="country_api">-->
+    <!--        <item name="egypt">eg</item>-->
+    <!--        <item name="usa">us</item>-->
+    <!--    </string-array>-->
+    <!--    <string-array name="categories">-->
+    <!--        <item  name="general">general</item>-->
+    <!--        <item name="bus">business</item>-->
+    <!--        <item  name="enter">entertainment</item>-->
+    <!--        <item   name="health">health</item>-->
+    <!--        <item  name="science">science</item>-->
+    <!--        <item  name="sport">sports</item>-->
+    <!--        <item  name="tech">technology</item>-->
+    <!--    </string-array>-->
+</resources>
