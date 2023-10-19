@@ -10,7 +10,6 @@ Implemented functinality to the UI: onCreate, onAddItem, setupListViewListener, 
 Integrated setOnItemLongClickListener to remove items from the list.
 Use a SQLite Database with Android Studio and SharedPreferences for save the preferences of the user like language ,category and save the state if user singed in or not .
 Use Retrofit to get data that needed (API) .
-
+[![Watch the video](https://img.youtube.com/vi/_q2Vp_K9qBc/0.jpg)](https://www.youtube.com/shorts/_q2Vp_K9qBc)
 
 .
-[![Watch the video](https://j.gifs.com/k2Lp7v.gif)](https://youtube.com/shorts/_q2Vp_K9qBc?feature=share)
