@@ -9,7 +9,7 @@ Developed a user interface within the xml file using  constraintlayout, ListView
 Implemented functinality to the UI: onCreate, onAddItem, setupListViewListener, readItems, & writeItems.
 Integrated setOnItemLongClickListener to remove items from the list.
 Use a SQLite Database with Android Studio and SharedPreferences for save the preferences of the user like language ,category and save the state if user singed in or not .
-Use Retrofit to get data that needed (api) .
+Use Retrofit to get data that needed (API) .
 
 
 .
